@@ -1,0 +1,25 @@
+{
+  "name": "chatting-application",
+  "version": "1.0.0",
+  "description": "A chatting application using socket.io",
+  "keywords": [
+    "Socket.io",
+    "backend"
+  ],
+  "license": "ISC",
+  "author": "Nitish Kumar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.11.1",
+    "socket.io": "^4.8.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
