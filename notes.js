@@ -1,13 +1,10 @@
-//  we can send a message to a community using s.cket.to("community name").emit("event_name", data);
+//  we can send a message to a community using socket.to("community name").emit("event_name", data);
 
 // we can also send data to the all connected user using a broadcast 
-// socket.to(soclet.id).emit("event_name", data);
+// socket.to(socket.id).emit("event_name", data);
 // socket = indivisual level
 // io = global level
 // socket.broadcast.emit = send to every one except sender
-
-
-
 
 
 
